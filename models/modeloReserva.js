@@ -20,6 +20,10 @@ const Reserva = new Schema({
         type: Date,
         required: true
     },
+    fechafinalreserva:{
+        type: Date,
+        required: true
+    },
     precio: {
         type: Number,
         required: true

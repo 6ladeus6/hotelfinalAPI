@@ -1,5 +1,4 @@
-import { ServicioHabitacion } from "../services/serviciohabitacion.js"
-
+import { ServicioHabitacion } from "../services/ServicioHabitacion.js"
 export class ControladorHabitaciones{
     constructor(){}
     async registrandoHabitacion(peticion,respuesta){
